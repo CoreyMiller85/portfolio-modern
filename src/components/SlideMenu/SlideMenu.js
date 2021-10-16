@@ -7,7 +7,7 @@ const SlideMenu = ({ isMenuOpen, active, setIsMenuOpen }) => {
 			<span
 				className="close"
 				aria-label="close menu"
-				onClick={() => setIsMenuOpen(!isMenuOpen)}
+				onClick={() => setIsMenuOpen(false)}
 			>
 				X
 			</span>
