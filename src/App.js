@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import Header from "./components/Header/Header";
 import SlideMenu from "./components/SlideMenu/SlideMenu";
 import Hero from "./components/Hero/Hero";
-import Section from "./components/Section/Section";
-
+import Projects from "./components/Projects/Projects";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
 import "./App.scss";
 
 const App = () => {
@@ -22,7 +23,9 @@ const App = () => {
 			{slideMenu}
 			<Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 			<Hero />
-			<Section title="About" />
+			<About />
+			<Projects />
+			<Skills />
 		</div>
 	);
 };
