@@ -1,4 +1,6 @@
 .slide-menu {
+	visibility: hidden;
+	opacity: 0;
 	height: 100vh;
 	z-index: 10;
 	width: 100vw;
@@ -9,6 +11,8 @@
 	transition: all 0.5s ease-in-out;
 	transform: translateX(-1000px);
 	&.active {
+		opacity: 100%;
+		visibility: visible;
 		transform: translateX(0px);
 	}
 
