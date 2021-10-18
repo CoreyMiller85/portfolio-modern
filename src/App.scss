@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import "components/Header/Header.scss";
+@import "./components/Projects/Projects.scss";
+@import "components/SingleProject/SingleProject.scss";
 
+html,
 body {
 	margin: 0;
 	padding: 0;
@@ -8,4 +11,9 @@ body {
 	font-size: 10px;
 	background-color: #fdfbf7;
 	font-family: "Lato";
+}
+
+.app {
+	position: relative;
+	font-size: 1.6rem;
 }

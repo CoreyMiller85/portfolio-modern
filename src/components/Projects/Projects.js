@@ -1,19 +1,11 @@
 import React from "react";
+import SingleProject from "../SingleProject/SingleProject";
 
 const Projects = () => {
 	return (
-		<div className="Projects">
+		<div className="projects">
 			<h3>Projects</h3>
-			<div>
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam eius
-					laboriosam soluta! At dolor omnis aut ducimus id ea qui, autem
-					aspernatur? Ad magni illo corporis. Veniam recusandae sunt illum,
-					repellendus blanditiis repellat labore aspernatur unde et, libero
-					facere fuga a quibusdam? Dignissimos quod quis dolorum aliquam?
-					Itaque, dicta ad.
-				</p>
-			</div>
+			<SingleProject title={"Mtg Server"} />
 		</div>
 	);
 };

@@ -1,15 +1,31 @@
 .hero {
-	transform: translateY(-70px);
-	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	color: white;
+	height: auto;
 	position: relative;
 
-	&__content {
+	&__container {
+		width: 100%;
+		height: 100vh;
+		margin: 0;
 		display: block;
-		background: rgba($color: #000000, $alpha: 0.7);
+		position: relative;
+		overflow: hidden;
+		z-index: 0;
+	}
+
+	&__content {
+		position: absolute;
+		background: rgba($color: #000000, $alpha: 0.8);
 		height: 100%;
 		width: 100%;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
@@ -17,5 +33,9 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: -10;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	z-index: 0;
 }
