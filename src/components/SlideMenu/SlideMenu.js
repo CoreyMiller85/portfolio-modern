@@ -16,7 +16,7 @@ const SlideMenu = ({ isMenuOpen, active, setIsMenuOpen }) => {
 					<a href="#">About</a>
 				</li>
 				<li className="slide-menu__li">
-					<a href="#">Projects</a>
+					<a href="#projects">Projects</a>
 				</li>
 				<li className="slide-menu__li">
 					<a href="#">Skills</a>

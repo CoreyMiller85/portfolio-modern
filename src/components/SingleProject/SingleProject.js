@@ -1,22 +1,40 @@
 import React from "react";
-import placeholder800x600 from "../../img/placeholder-800x600.jpeg";
+import castrImg from "../../img/castr-screen.png";
 
-const SingleProject = ({ title }) => {
+const SingleProject = ({ title, tags, desciption, gitLink, liveLink }) => {
+	const insertTags = (tags) => {
+		if (tags.length > 0) {
+			const list = tags.map((tag) => <span className="tags__tag">{tag}</span>);
+			return list;
+		}
+		return null;
+	};
+
+	const tagList = insertTags(tags);
+
 	return (
 		<div className="single-project">
 			<div className="single-project__image">
-				<img src={placeholder800x600} alt="" />
+				<img src={castrImg} alt="" />
 			</div>
 
 			<h3 className="single-project__title">{title}</h3>
-			<p className="single-project__description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-				quibusdam vitae provident suscipit laborum amet illo maxime officia
-				voluptatum harum officiis asperiores porro quasi earum architecto fuga
-				ex tenetur quis molestiae nemo cumque esse? Obcaecati placeat enim
-				dolore itaque officia blanditiis, quod impedit beatae praesentium dicta
-				at accusamus inventore natus?
-			</p>
+			<div className="tags">{tagList}</div>
+			<p className="single-project__description">{desciption}</p>
+			<div className="single-project__buttons">
+				<a href={gitLink}>
+					<button className="btn white sm">Github</button>
+				</a>
+				{liveLink ? (
+					<a href={liveLink}>
+						<button className="btn green sm">Live Demo</button>
+					</a>
+				) : (
+					<button className="btn green sm" disabled>
+						Live Demo
+					</button>
+				)}
+			</div>
 		</div>
 	);
 };

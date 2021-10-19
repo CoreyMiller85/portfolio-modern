@@ -1,3 +1,59 @@
 .projects {
 	width: 100%;
+	height: 100%;
+}
+.title {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+	height: 100%;
+
+	&__span__container {
+		transform: rotate(-3deg);
+		position: relative;
+		text-shadow: 1px 1px 2px rgba($color: #000000, $alpha: 0.6);
+		// &::after {
+		// 	content: "";
+		// 	position: absolute;
+		// 	width: 100%;
+		// 	height: 3px;
+		// 	background: rgb(75, 0, 0);
+		// 	bottom: 20%;
+		// 	left: 0;
+		// }
+	}
+	&__span__container.inverse {
+		transform: rotate(3deg);
+		position: relative;
+		text-shadow: 1px 1px 2px rgba($color: #000000, $alpha: 0.6);
+		// &::after {
+		// 	content: "";
+		// 	position: absolute;
+		// 	width: 100%;
+
+		// 	background: rgb(75, 0, 0);
+		// 	bottom: 20%;
+		// 	left: 0;
+		// }
+	}
+
+	&__span {
+		letter-spacing: 0.5rem;
+		display: inline-block;
+		font-family: "IM Fell English SC", serif;
+		color: rgb(180, 0, 0);
+		font-size: 8rem;
+		&:nth-of-type(2n) {
+			transform: translateY(2px);
+		}
+		&:nth-of-type(odd) {
+			transform: translateY(-5px);
+		}
+		&:nth-of-type(2n + 1) {
+			transform: translateY(-5px) rotate(5deg);
+		}
+	}
 }

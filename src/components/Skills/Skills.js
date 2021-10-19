@@ -3,7 +3,16 @@ import React from "react";
 const Skills = () => {
 	return (
 		<div className="Skills">
-			<h3>Skills</h3>
+			<div className="title">
+				<div className="title__span__container inverse">
+					<span className="title__span">S</span>
+					<span className="title__span">K</span>
+					<span className="title__span">I</span>
+					<span className="title__span">L</span>
+					<span className="title__span">L</span>
+					<span className="title__span">S</span>
+				</div>
+			</div>
 			<div>
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam eius

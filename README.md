@@ -10,6 +10,7 @@ TODO:
 - add skills section
 - add contact section.
 - add content for projects section, using the three projects I have completed already.
+- correct imports with scss from each component to master app file.
 
 In Progress: 
 - add projects section
