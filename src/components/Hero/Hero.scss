@@ -19,11 +19,11 @@
 
 	&__content {
 		position: absolute;
-		background: rgba($color: #000000, $alpha: 0.8);
+		background: rgba($color: $background-color, $alpha: 0.8);
 
 		height: 100%;
 		width: 100%;
-		color: white;
+		color: $font-color;
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: center;
@@ -48,7 +48,7 @@
 			top: -120px;
 			left: 0;
 			display: block;
-			color: chartreuse;
+			color: $secondary-color;
 			font-size: 5rem;
 			transform: rotate(-13deg);
 		}

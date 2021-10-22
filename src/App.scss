@@ -1,10 +1,16 @@
+@import "./Sass/varibles";
+@import "./Sass/utlities";
+@import "./Sass/animation";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+
 @import "components/Header/Header.scss";
+@import "./components/hero/Hero.scss";
 @import "./components/Projects/Projects.scss";
 @import "components/SingleProject/SingleProject.scss";
-@import "./Sass/utlities";
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+// @import "components/SingleProject/skills.scss";
+@import "components/SlideMenu/SlideMenu.scss";
 
 html,
 body {
@@ -12,8 +18,10 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 10px;
-	background-color: #fdfbf7;
+	background-color: $background-color;
+	color: $font-color;
 	font-family: "Lato";
+	overflow-x: hidden;
 }
 
 .app {

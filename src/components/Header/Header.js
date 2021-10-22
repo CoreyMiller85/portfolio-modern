@@ -4,7 +4,6 @@ import { IconContext } from "react-icons";
 import { CgMenuRound } from "react-icons/cg";
 import SlideMenu from "../SlideMenu/SlideMenu";
 
-import "./Header.scss";
 const Header = ({ isMenuOpen, setIsMenuOpen }) => {
 	return (
 		<div className="header">

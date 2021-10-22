@@ -4,28 +4,21 @@ import SingleProject from "../SingleProject/SingleProject";
 const Projects = () => {
 	return (
 		<div className="projects" id="projects">
-			<div className="title">
-				<div className="title__span__container">
-					<span className="title__span">P</span>
-					<span className="title__span">R</span>
-					<span className="title__span">O</span>
-					<span className="title__span">J</span>
-					<span className="title__span">E</span>
-					<span className="title__span">C</span>
-					<span className="title__span">T</span>
-					<span className="title__span">S</span>
-				</div>
+			<div className="title pink-neon">
+				<div className="title__letter">P</div>
+				<div className="title__letter">R</div>
+				<div className="title__letter">O</div>
+				<div className="title__letter">J</div>
+				<div className="title__letter">E</div>
+				<div className="title__letter">C</div>
+				<div className="title__letter">T</div>
+				<div className="title__letter">S</div>
 			</div>
 			<div className="projects__container">
 				<SingleProject
 					title={"Mtg Server"}
 					tags={["node", "axios"]}
-					desciption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-				quibusdam vitae provident suscipit laborum amet illo maxime officia
-				voluptatum harum officiis asperiores porro quasi earum architecto fuga
-				ex tenetur quis molestiae nemo cumque esse? Obcaecati placeat enim
-				dolore itaque officia blanditiis, quod impedit beatae praesentium dicta
-				at accusamus inventore natus?"
+					desciption="This is a server for my Caster App, this server controls the API end points for searching my extensive MongoDB database of all printed Magic: The Gathering cards. It also controls the user database that is used for authentication and creating a repo of each users collected cards if they so choose. Created as a personal project for myself and friends to use to create and store card collections, and deck lists for playing MTG. Uses JSON Web Tokens for autheti"
 					gitLink="https://github.com/CoreyMiller85/mtg-api-server"
 					liveLink=""
 				/>

@@ -3,15 +3,13 @@ import React from "react";
 const Skills = () => {
 	return (
 		<div className="Skills">
-			<div className="title">
-				<div className="title__span__container inverse">
-					<span className="title__span">S</span>
-					<span className="title__span">K</span>
-					<span className="title__span">I</span>
-					<span className="title__span">L</span>
-					<span className="title__span">L</span>
-					<span className="title__span">S</span>
-				</div>
+			<div className="title pink-neon">
+				<span className="title__letter">S</span>
+				<span className="title__letter">K</span>
+				<span className="title__letter">I</span>
+				<span className="title__letter">L</span>
+				<span className="title__letter">L</span>
+				<span className="title__letter">S</span>
 			</div>
 			<div>
 				<p>

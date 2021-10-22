@@ -27,9 +27,10 @@ $color-primary: #51ff00;
 		transform: translateY(3px);
 		box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.6);
 	}
-	&.green {
-		background: $color-primary;
-		color: black;
+	&.secondary {
+		background: $highlight-color;
+		color: $bright-font-color;
+		text-shadow: $text-shadow;
 	}
 	&.clear {
 		background: transparent;
@@ -49,4 +50,31 @@ $color-primary: #51ff00;
 		font-size: 2rem;
 		border-radius: 5px;
 	}
+}
+
+/* Title Utl */
+.title {
+	width: 100%;
+	padding: 2rem 0;
+	text-align: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	transform: rotate(-3deg);
+
+	&__letter {
+		font-size: 8rem;
+		color: $secondary-color;
+		font-weight: 900;
+	}
+}
+
+// Pink Neon
+
+.pink-neon {
+	color: #fff;
+	text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+		0 0 42px rgb(255, 101, 229), 0 0 82px rgb(255, 70, 224),
+		0 0 92px rgb(255, 57, 222), 0 0 102px rgb(255, 30, 218),
+		0 0 120px rgb(255, 0, 212);
 }
