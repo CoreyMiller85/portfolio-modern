@@ -17,7 +17,7 @@ const Projects = () => {
 			<div className="projects__container">
 				<SingleProject
 					title={"Mtg Server"}
-					tags={["node", "axios"]}
+					tags={["node", "axios", "MongoDb"]}
 					desciption="This is a server for my Caster App, this server controls the API end points for searching my extensive MongoDB database of all printed Magic: The Gathering cards. It also controls the user database that is used for authentication and creating a repo of each users collected cards if they so choose. Created as a personal project for myself and friends to use to create and store card collections, and deck lists for playing MTG. Uses JSON Web Tokens for autheti"
 					gitLink="https://github.com/CoreyMiller85/mtg-api-server"
 					liveLink=""

@@ -33,9 +33,9 @@
 	display: flex;
 	&__tag {
 		border-radius: 5px;
-		background: rgba($color: #0056c7, $alpha: 1);
+		background: rgba($color: $secondary-color, $alpha: 1);
 		display: block;
-		color: white;
+		color: $dark-font-color;
 		padding: 0.25rem 1rem;
 		margin-right: 0.5rem;
 		height: fit-content;

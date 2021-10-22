@@ -23,7 +23,7 @@ const Contact = () => {
 	}
 
 	return (
-		<div title="Contact Me" id="contact">
+		<div className="contact" id="contact">
 			<div className="title pink-neon">
 				<div className="title__letter">C</div>
 				<div className="title__letter flicker-fast">O</div>
@@ -33,17 +33,33 @@ const Contact = () => {
 				<div className="title__letter">C</div>
 				<div className="title__letter">T</div>
 			</div>
-			<form className="contact__form" onSubmit={sendEmail}>
-				<label htmlFor="name" className="contact__name-label">
-					Name:
-					<input type="text" name="name" className="contact__name-input" />
-				</label>
-				<label htmlFor="email" className="contact__email-label">
-					Email:
-					<input type="email" name="email" className="contact__email-input" />
-				</label>
-				<label htmlFor="message" className="contact__message-label">
-					Message:
+			<form className="contact__form" onSubmit={sendEmail} autocomplete="off">
+				<div className="contact__form-divider">
+					<label htmlFor="name" className="contact__name-label">
+						Name:
+					</label>
+					<input
+						type="text"
+						placeholder="Name"
+						name="name"
+						className="contact__name-input"
+					/>
+				</div>
+				<div className="contact__form-divider">
+					<label htmlFor="email" className="contact__email-label">
+						Email:
+					</label>
+					<input
+						placeholder="Email"
+						type="email"
+						name="email"
+						className="contact__email-input"
+					/>
+				</div>
+				<div className="contact__form-divider">
+					<label htmlFor="message" className="contact__message-label">
+						Message:
+					</label>
 					<textarea
 						rows="5"
 						id="message-box"
@@ -53,8 +69,8 @@ const Contact = () => {
 						pattern="^[a-zA-Z1-9].*"
 						required=""
 					></textarea>
-				</label>
-				<button className="contact__button">Send</button>
+				</div>
+				<button className="btn secondary">Send</button>
 			</form>
 		</div>
 	);

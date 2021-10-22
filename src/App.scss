@@ -1,6 +1,11 @@
 @import "./Sass/varibles";
 @import "./Sass/utlities";
 @import "./Sass/animation";
+
+@font-face {
+	font-family: "Picadilly";
+	src: local("Picadilly"), url(./fonts/Picadilly.ttf) format("truetype");
+}
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
@@ -11,7 +16,7 @@
 @import "components/SingleProject/SingleProject.scss";
 // @import "components/SingleProject/skills.scss";
 @import "components/SlideMenu/SlideMenu.scss";
-@import "components/SlideMenu/SlideMenu.scss";
+@import "components/Contact/Contact.scss";
 
 html,
 body {
@@ -23,6 +28,12 @@ body {
 	color: $font-color;
 	font-family: "Lato";
 	overflow-x: hidden;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+	display: none;
 }
 
 .app {
