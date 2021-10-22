@@ -4,11 +4,11 @@ import SingleProject from "../SingleProject/SingleProject";
 const Projects = () => {
 	return (
 		<div className="projects" id="projects">
-			<div className="title pink-neon">
+			<div className="title pink-neon tilt-right ">
 				<div className="title__letter">P</div>
-				<div className="title__letter">R</div>
+				<div className="title__letter flicker-slow">R</div>
 				<div className="title__letter">O</div>
-				<div className="title__letter">J</div>
+				<div className="title__letter flicker-fast falling-left">J</div>
 				<div className="title__letter">E</div>
 				<div className="title__letter">C</div>
 				<div className="title__letter">T</div>

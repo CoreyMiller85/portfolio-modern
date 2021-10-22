@@ -6,3 +6,53 @@
 		transform: translateX(-100%);
 	}
 }
+
+@keyframes flicker {
+	0%,
+	19.999%,
+	22%,
+	62.999%,
+	64%,
+	64.999%,
+	70%,
+	100% {
+		// text-shadow: none;
+		opacity: 0.99;
+	}
+	20%,
+	21.999%,
+	63%,
+	63.999%,
+	65%,
+	69.999% {
+		opacity: 0.4;
+	}
+}
+
+@keyframes blinkAnimation {
+	0%,
+	19.999%,
+	22%,
+	62.999%,
+	64%,
+	64.999%,
+	70%,
+	100% {
+		text-shadow: none;
+		opacity: 0.2;
+		color: #666;
+	}
+	20%,
+	21.999%,
+	63%,
+	63.999%,
+	65%,
+	69.999% {
+		text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+			0 0 42px rgb(255, 101, 229), 0 0 82px rgb(255, 70, 224),
+			0 0 92px rgb(255, 57, 222), 0 0 102px rgb(255, 30, 218),
+			0 0 120px rgb(255, 0, 212);
+		color: $secondary-color;
+		opacity: 0.4;
+	}
+}

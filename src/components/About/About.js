@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
 	return (
 		<div className="about">
-			<div className="title pink-neon">
+			<div className="title pink-neon tilt-left">
 				<span className="title__letter">A</span>
 				<span className="title__letter">B</span>
-				<span className="title__letter">O</span>
-				<span className="title__letter">U</span>
-				<span className="title__letter">T</span>
+				<span className="title__letter blink">O</span>
+				<span className="title__letter flicker-fast">U</span>
+				<span className="title__letter flicker-slow">T</span>
 			</div>
 			<div>
 				<p className="hero__content__copy">

@@ -26,10 +26,10 @@ const Contact = () => {
 		<div title="Contact Me" id="contact">
 			<div className="title pink-neon">
 				<div className="title__letter">C</div>
-				<div className="title__letter">O</div>
+				<div className="title__letter flicker-fast">O</div>
 				<div className="title__letter">N</div>
-				<div className="title__letter">T</div>
-				<div className="title__letter">A</div>
+				<div className="title__letter falling-left">T</div>
+				<div className="title__letter flicker-slow">A</div>
 				<div className="title__letter">C</div>
 				<div className="title__letter">T</div>
 			</div>
