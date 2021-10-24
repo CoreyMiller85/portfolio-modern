@@ -13,16 +13,16 @@ const SlideMenu = ({ isMenuOpen, active, setIsMenuOpen }) => {
 			</span>
 			<ul className="slide-menu__list">
 				<li className="slide-menu__li">
-					<a href="#">About</a>
+					<a href="#about">About</a>
 				</li>
 				<li className="slide-menu__li">
 					<a href="#projects">Projects</a>
 				</li>
 				<li className="slide-menu__li">
-					<a href="#">Skills</a>
+					<a href="#skills">Skills</a>
 				</li>
 				<li className="slide-menu__li">
-					<a href="#">Contact</a>
+					<a href="#contact">Contact</a>
 				</li>
 			</ul>
 		</div>

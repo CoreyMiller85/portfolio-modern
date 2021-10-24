@@ -20,8 +20,12 @@ const Hero = () => {
 					Creator of powerful & well engineered user focused web applications
 				</h1>
 
-				<button className="btn clear">Projects</button>
-				<button className="btn secondary">Contact</button>
+				<a href="#projects">
+					<button className="btn clear">Projects</button>
+				</a>
+				<a href="#contact">
+					<button className="btn secondary">Contact</button>
+				</a>
 			</div>
 		</div>
 	);

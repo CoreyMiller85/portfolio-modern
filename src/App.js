@@ -6,6 +6,7 @@ import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
+
 import "./App.scss";
 
 const App = () => {

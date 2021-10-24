@@ -8,7 +8,7 @@ import sassLogo from "../../img/logos/sassLogo.png";
 
 const Skills = () => {
 	return (
-		<div className="Skills">
+		<div className="Skills" id="skills">
 			<div className="title pink-neon tilt-left">
 				<span className="title__letter">S</span>
 				<span className="title__letter blink">K</span>

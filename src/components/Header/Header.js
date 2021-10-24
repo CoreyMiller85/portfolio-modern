@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { IconContext } from "react-icons";
 
 import { CgMenuRound } from "react-icons/cg";
-import SlideMenu from "../SlideMenu/SlideMenu";
 
 const Header = ({ isMenuOpen, setIsMenuOpen }) => {
 	return (
@@ -21,16 +20,16 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
 			</div>
 			<ul className="header__list">
 				<li className="list__li btn sm">
-					<a href="#">About</a>
+					<a href="#about">About</a>
 				</li>
 				<li className="list__li btn sm">
-					<a href="#">Projects</a>
+					<a href="#projects">Projects</a>
 				</li>
 				<li className="list__li btn sm">
-					<a href="#">Skills</a>
+					<a href="#skills">Skills</a>
 				</li>
 				<li className="list__li btn sm">
-					<a href="#">Contact</a>
+					<a href="#contact">Contact</a>
 				</li>
 			</ul>
 		</div>

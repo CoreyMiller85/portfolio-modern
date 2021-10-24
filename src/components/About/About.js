@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="about">
+		<div className="about" id="about">
 			<div className="title pink-neon tilt-left">
 				<span className="title__letter">A</span>
 				<span className="title__letter">B</span>
@@ -15,7 +15,7 @@ const About = () => {
 					I started young making modifications to video games I loved, and
 					branched into creating art for those mods. Now I take that same
 					creative energy and put it into creating applications that are easy to
-					use, and functional.
+					use, fun and functional.
 				</p>
 				<p className="hero__content__copy">
 					With my attention to detail and drive, I am excited to learn new

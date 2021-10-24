@@ -71,3 +71,11 @@
 	object-fit: cover;
 	z-index: 0;
 }
+
+@media (min-width: $breakpoint-tablet) {
+	.hero {
+		&__content__headline {
+			margin: 2rem 4rem;
+		}
+	}
+}
