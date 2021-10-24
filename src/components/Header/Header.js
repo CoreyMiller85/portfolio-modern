@@ -20,17 +20,17 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
 				</IconContext.Provider>
 			</div>
 			<ul className="header__list">
-				<li className="list__li">
+				<li className="list__li btn sm">
+					<a href="#">About</a>
+				</li>
+				<li className="list__li btn sm">
 					<a href="#">Projects</a>
 				</li>
-				<li className="list__li">
-					<a href="#">Projects</a>
+				<li className="list__li btn sm">
+					<a href="#">Skills</a>
 				</li>
-				<li className="list__li">
-					<a href="#">Projects</a>
-				</li>
-				<li className="list__li">
-					<a href="#">Projects</a>
+				<li className="list__li btn sm">
+					<a href="#">Contact</a>
 				</li>
 			</ul>
 		</div>

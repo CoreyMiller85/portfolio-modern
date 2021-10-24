@@ -22,6 +22,13 @@ const Projects = () => {
 					gitLink="https://github.com/CoreyMiller85/mtg-api-server"
 					liveLink=""
 				/>
+				<SingleProject
+					title={"Placeholder Project"}
+					tags={["React", "Router", "Redux"]}
+					desciption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, placeat delectus odit consequuntur dolores fugit enim reiciendis adipisci accusamus corporis expedita quaerat consectetur nemo vel. Facilis natus iste cumque veniam officia quas maiores voluptates quibusdam omnis! Recusandae numquam nulla commodi consequuntur fuga magni culpa odio. Aspernatur inventore officia iusto beatae."
+					gitLink="https://github.com/CoreyMiller85/mtg-api-server"
+					liveLink=""
+				/>
 			</div>
 		</div>
 	);

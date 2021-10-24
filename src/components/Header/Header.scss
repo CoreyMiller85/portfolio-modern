@@ -18,7 +18,7 @@
 			font-weight: 200;
 		}
 		& span.last {
-			color: chartreuse;
+			color: $secondary-color;
 		}
 	}
 
@@ -39,3 +39,29 @@
 		visibility: hidden;
 	}
 }
+
+@media (min-width: $breakpoint-tablet) {
+	.header {
+		&__list {
+			display: flex;
+			visibility: visible;
+			list-style-type: none;
+			& a,
+			a:active,
+			a:visited {
+				text-decoration: none;
+				color: $font-color;
+			}
+
+			& li {
+				display: block;
+				margin-right: 5rem;
+				background: $highlight-color;
+			}
+		}
+		&__hamburger {
+			display: none;
+			visibility: hidden;
+		}
+	}
+} ;
