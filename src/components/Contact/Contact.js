@@ -25,7 +25,7 @@ const Contact = () => {
 	return (
 		<div className="contact" id="contact">
 			<div className="title pink-neon">
-				<div className="seperator pink-neon"></div>
+				<div className="separator pink-neon"></div>
 				<div className="tilt-left">
 					<span className="title__letter">C</span>
 					<span className="title__letter flicker-fast">O</span>
@@ -35,7 +35,7 @@ const Contact = () => {
 					<span className="title__letter">C</span>
 					<span className="title__letter">T</span>
 				</div>
-				<div className="seperator pink-neon"></div>
+				<div className="separator pink-neon"></div>
 			</div>
 			<form className="contact__form" onSubmit={sendEmail} autocomplete="off">
 				<div className="contact__form-divider">

@@ -10,7 +10,7 @@ const Skills = () => {
 	return (
 		<div className="Skills" id="skills">
 			<div className="title pink-neon ">
-				<div className="seperator pink-neon"></div>
+				<div className="separator pink-neon"></div>
 
 				<div className="tilt-left">
 					<span className="title__letter">S</span>
@@ -20,7 +20,7 @@ const Skills = () => {
 					<span className="title__letter">L</span>
 					<span className="title__letter">S</span>
 				</div>
-				<div className="seperator pink-neon"></div>
+				<div className="separator pink-neon"></div>
 			</div>
 
 			<div className="Skills__logos">

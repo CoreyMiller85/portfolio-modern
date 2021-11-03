@@ -5,7 +5,7 @@ const Projects = () => {
 	return (
 		<div className="projects" id="projects">
 			<div className="title pink-neon ">
-				<div className="seperator pink-neon "></div>
+				<div className="separator pink-neon "></div>
 				<div className="tilt-right">
 					<span className="title__letter">P</span>
 					<span className="title__letter flicker-slow">R</span>
@@ -16,7 +16,7 @@ const Projects = () => {
 					<span className="title__letter">T</span>
 					<span className="title__letter">S</span>
 				</div>
-				<div className="seperator pink-neon "></div>
+				<div className="separator pink-neon "></div>
 			</div>
 			<div className="projects__container">
 				<SingleProject

@@ -4,7 +4,7 @@ const About = () => {
 	return (
 		<div className="about" id="about">
 			<div className="title pink-neon ">
-				<div className="seperator pink-neon "></div>
+				<div className="separator pink-neon "></div>
 				<div className="tilt-left">
 					<span className="title__letter">A</span>
 					<span className="title__letter">B</span>
@@ -12,7 +12,7 @@ const About = () => {
 					<span className="title__letter flicker-fast">U</span>
 					<span className="title__letter flicker-slow">T</span>
 				</div>
-				<div className="seperator pink-neon "></div>
+				<div className="separator pink-neon "></div>
 			</div>
 			<div>
 				<p className="hero__content__copy">
