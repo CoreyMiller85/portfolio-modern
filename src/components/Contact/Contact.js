@@ -25,13 +25,17 @@ const Contact = () => {
 	return (
 		<div className="contact" id="contact">
 			<div className="title pink-neon">
-				<div className="title__letter">C</div>
-				<div className="title__letter flicker-fast">O</div>
-				<div className="title__letter">N</div>
-				<div className="title__letter falling-left">T</div>
-				<div className="title__letter flicker-slow">A</div>
-				<div className="title__letter">C</div>
-				<div className="title__letter">T</div>
+				<div className="seperator pink-neon"></div>
+				<div className="tilt-left">
+					<span className="title__letter">C</span>
+					<span className="title__letter flicker-fast">O</span>
+					<span className="title__letter">N</span>
+					<span className="title__letter falling-left">T</span>
+					<span className="title__letter flicker-slow">A</span>
+					<span className="title__letter">C</span>
+					<span className="title__letter">T</span>
+				</div>
+				<div className="seperator pink-neon"></div>
 			</div>
 			<form className="contact__form" onSubmit={sendEmail} autocomplete="off">
 				<div className="contact__form-divider">

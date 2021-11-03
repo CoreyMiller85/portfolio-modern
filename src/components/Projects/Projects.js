@@ -4,15 +4,19 @@ import SingleProject from "../SingleProject/SingleProject";
 const Projects = () => {
 	return (
 		<div className="projects" id="projects">
-			<div className="title pink-neon tilt-right ">
-				<div className="title__letter">P</div>
-				<div className="title__letter flicker-slow">R</div>
-				<div className="title__letter">O</div>
-				<div className="title__letter flicker-fast falling-left">J</div>
-				<div className="title__letter">E</div>
-				<div className="title__letter">C</div>
-				<div className="title__letter">T</div>
-				<div className="title__letter">S</div>
+			<div className="title pink-neon ">
+				<div className="seperator pink-neon "></div>
+				<div className="tilt-right">
+					<span className="title__letter">P</span>
+					<span className="title__letter flicker-slow">R</span>
+					<span className="title__letter">O</span>
+					<span className="title__letter flicker-fast falling-left">J</span>
+					<span className="title__letter">E</span>
+					<span className="title__letter">C</span>
+					<span className="title__letter">T</span>
+					<span className="title__letter">S</span>
+				</div>
+				<div className="seperator pink-neon "></div>
 			</div>
 			<div className="projects__container">
 				<SingleProject
