@@ -103,6 +103,19 @@ $color-primary: #51ff00;
 	animation: blinkAnimation 3s linear infinite;
 }
 
+.seperator {
+	align-self: center;
+	width: 100%;
+	background-color: rgb(255, 101, 229);
+	height: 2px;
+	transform: translateY(-10px);
+
+	box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+		0 0 42px rgb(255, 101, 229), 0 0 82px rgb(255, 70, 224),
+		0 0 92px rgb(255, 57, 222), 0 0 102px rgb(255, 30, 218),
+		0 0 120px rgb(255, 0, 212);
+}
+
 @media (min-width: $breakpoint-tablet) {
 	.title {
 		width: 100%;

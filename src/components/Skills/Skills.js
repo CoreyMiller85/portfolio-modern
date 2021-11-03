@@ -9,14 +9,20 @@ import sassLogo from "../../img/logos/sassLogo.png";
 const Skills = () => {
 	return (
 		<div className="Skills" id="skills">
-			<div className="title pink-neon tilt-left">
-				<span className="title__letter">S</span>
-				<span className="title__letter blink">K</span>
-				<span className="title__letter">I</span>
-				<span className="title__letter flicker-slow">L</span>
-				<span className="title__letter">L</span>
-				<span className="title__letter">S</span>
+			<div className="title pink-neon ">
+				<div className="seperator pink-neon"></div>
+
+				<div className="tilt-left">
+					<span className="title__letter">S</span>
+					<span className="title__letter blink">K</span>
+					<span className="title__letter">I</span>
+					<span className="title__letter flicker-slow">L</span>
+					<span className="title__letter">L</span>
+					<span className="title__letter">S</span>
+				</div>
+				<div className="seperator pink-neon"></div>
 			</div>
+
 			<div className="Skills__logos">
 				<div className="wrapper">
 					<img src={reactLogoSmall} className="logo" alt="react logo" />
