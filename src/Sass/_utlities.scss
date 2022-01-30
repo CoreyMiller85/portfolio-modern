@@ -54,6 +54,7 @@ $color-primary: #51ff00;
 
 /* Title Utl */
 .title {
+  flex: 1;
   width: 100%;
   padding: 2rem 0;
   margin-top: 10rem;
@@ -63,9 +64,9 @@ $color-primary: #51ff00;
   flex-flow: row nowrap;
   justify-content: space-between;
   font-family: 'Picadilly', sans-serif;
-  z-index: 10;
+  z-index: 100;
   &__letter {
-    font-size: 8rem;
+    font-size: 6rem;
     color: $neon-color;
     font-weight: normal;
   }
@@ -118,6 +119,7 @@ $color-primary: #51ff00;
 
 @media (min-width: $breakpoint-tablet) {
   .title {
+    flex: 1;
     width: 100%;
     padding: 2rem 0;
     margin-top: 10rem;
@@ -125,6 +127,7 @@ $color-primary: #51ff00;
     justify-content: center;
 
     &__letter {
+      flex: 1;
       font-size: 10rem;
       color: $neon-color;
       font-weight: normal;
