@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f850bd77.chunk.css",
+    "main.js": "/static/js/main.48e9b360.chunk.js",
+    "main.js.map": "/static/js/main.48e9b360.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e6fd819a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e6fd819a.js.map",
+    "static/js/2.b3f14833.chunk.js": "/static/js/2.b3f14833.chunk.js",
+    "static/js/2.b3f14833.chunk.js.map": "/static/js/2.b3f14833.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f850bd77.chunk.css.map": "/static/css/main.f850bd77.chunk.css.map",
+    "static/js/2.b3f14833.chunk.js.LICENSE.txt": "/static/js/2.b3f14833.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Picadilly.0a3230d6.ttf",
+    "static/media/castr-screen.22fffbfb.png": "/static/media/castr-screen.22fffbfb.png",
+    "static/media/close-pavel-danilyuk.5d8a5f45.mp4": "/static/media/close-pavel-danilyuk.5d8a5f45.mp4",
+    "static/media/css3.c0b1bbd0.png": "/static/media/css3.c0b1bbd0.png",
+    "static/media/mongodb-icon-small.afce6752.png": "/static/media/mongodb-icon-small.afce6752.png",
+    "static/media/node-small.10fa864d.png": "/static/media/node-small.10fa864d.png",
+    "static/media/react-small.5f40a6d2.png": "/static/media/react-small.5f40a6d2.png",
+    "static/media/sassLogo.df35cb2e.png": "/static/media/sassLogo.df35cb2e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6fd819a.js",
+    "static/js/2.b3f14833.chunk.js",
+    "static/css/main.f850bd77.chunk.css",
+    "static/js/main.48e9b360.chunk.js"
+  ]
+}
