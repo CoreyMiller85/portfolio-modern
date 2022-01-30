@@ -1,43 +1,43 @@
-@import "./Sass/varibles";
-@import "./Sass/utlities";
-@import "./Sass/animation";
+@import './Sass/varibles';
+@import './Sass/utlities';
+@import './Sass/animation';
 
 @font-face {
-	font-family: "Picadilly";
-	src: local("Picadilly"), url(./fonts/Picadilly.ttf) format("truetype");
+  font-family: 'Picadilly';
+  src: local('Picadilly'), url(./fonts/Picadilly.ttf) format('truetype');
 }
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
-@import "./components/Header/Header.scss";
-@import "./components/hero/Hero.scss";
-@import "./components/Projects/Projects.scss";
-@import "./components/SingleProject/SingleProject.scss";
+@import './components/Header/Header.scss';
+@import './components/hero/Hero.scss';
+@import './components/Projects/Projects.scss';
+@import './components/SingleProject/SingleProject.scss';
 // @import "components/SingleProject/skills.scss";
-@import "./components/SlideMenu/SlideMenu.scss";
-@import "./components/Contact/Contact.scss";
-@import "./components/Skills/Skills.scss";
+@import './components/SlideMenu/SlideMenu.scss';
+@import './components/Contact/Contact.scss';
+@import './components/Skills/Skills.scss';
 
 html,
 body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-size: 10px;
-	background-color: $background-color;
-	color: $font-color;
-	font-family: "Lato";
-	overflow-x: hidden;
-	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: $background-color;
+  color: $font-color;
+  font-family: 'Lato';
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 html::-webkit-scrollbar {
-	display: none;
+  display: none;
 }
 
 .app {
-	position: relative;
-	font-size: 1.6rem;
+  position: relative;
+  font-size: 1.6rem;
 }

@@ -1,16 +1,16 @@
 .projects {
-	width: 100%;
-	height: 100%;
-	&__container {
-		margin-top: 5rem;
-	}
+  width: 100%;
+  height: 100%;
+  &__container {
+    margin: 1rem;
+  }
 }
 @media (min-width: $breakpoint-tablet) {
-	.projects {
-		&__container {
-			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(40vw, 4fr));
-			justify-items: stretch;
-		}
-	}
+  .projects {
+    &__container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(40vw, 4fr));
+      justify-items: stretch;
+    }
+  }
 }
