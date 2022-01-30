@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.f850bd77.chunk.css",
-    "main.js": "/static/js/main.48e9b360.chunk.js",
-    "main.js.map": "/static/js/main.48e9b360.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e6fd819a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e6fd819a.js.map",
-    "static/js/2.b3f14833.chunk.js": "/static/js/2.b3f14833.chunk.js",
-    "static/js/2.b3f14833.chunk.js.map": "/static/js/2.b3f14833.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.f850bd77.chunk.css.map": "/static/css/main.f850bd77.chunk.css.map",
-    "static/js/2.b3f14833.chunk.js.LICENSE.txt": "/static/js/2.b3f14833.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/Picadilly.0a3230d6.ttf",
-    "static/media/castr-screen.22fffbfb.png": "/static/media/castr-screen.22fffbfb.png",
-    "static/media/close-pavel-danilyuk.5d8a5f45.mp4": "/static/media/close-pavel-danilyuk.5d8a5f45.mp4",
-    "static/media/css3.c0b1bbd0.png": "/static/media/css3.c0b1bbd0.png",
-    "static/media/mongodb-icon-small.afce6752.png": "/static/media/mongodb-icon-small.afce6752.png",
-    "static/media/node-small.10fa864d.png": "/static/media/node-small.10fa864d.png",
-    "static/media/react-small.5f40a6d2.png": "/static/media/react-small.5f40a6d2.png",
-    "static/media/sassLogo.df35cb2e.png": "/static/media/sassLogo.df35cb2e.png"
+    "main.css": "/portfolio-modern/static/css/main.ddd3800d.chunk.css",
+    "main.js": "/portfolio-modern/static/js/main.48e9b360.chunk.js",
+    "main.js.map": "/portfolio-modern/static/js/main.48e9b360.chunk.js.map",
+    "runtime-main.js": "/portfolio-modern/static/js/runtime-main.90c4c373.js",
+    "runtime-main.js.map": "/portfolio-modern/static/js/runtime-main.90c4c373.js.map",
+    "static/js/2.b3f14833.chunk.js": "/portfolio-modern/static/js/2.b3f14833.chunk.js",
+    "static/js/2.b3f14833.chunk.js.map": "/portfolio-modern/static/js/2.b3f14833.chunk.js.map",
+    "index.html": "/portfolio-modern/index.html",
+    "static/css/main.ddd3800d.chunk.css.map": "/portfolio-modern/static/css/main.ddd3800d.chunk.css.map",
+    "static/js/2.b3f14833.chunk.js.LICENSE.txt": "/portfolio-modern/static/js/2.b3f14833.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/portfolio-modern/static/media/Picadilly.0a3230d6.ttf",
+    "static/media/castr-screen.22fffbfb.png": "/portfolio-modern/static/media/castr-screen.22fffbfb.png",
+    "static/media/close-pavel-danilyuk.5d8a5f45.mp4": "/portfolio-modern/static/media/close-pavel-danilyuk.5d8a5f45.mp4",
+    "static/media/css3.c0b1bbd0.png": "/portfolio-modern/static/media/css3.c0b1bbd0.png",
+    "static/media/mongodb-icon-small.afce6752.png": "/portfolio-modern/static/media/mongodb-icon-small.afce6752.png",
+    "static/media/node-small.10fa864d.png": "/portfolio-modern/static/media/node-small.10fa864d.png",
+    "static/media/react-small.5f40a6d2.png": "/portfolio-modern/static/media/react-small.5f40a6d2.png",
+    "static/media/sassLogo.df35cb2e.png": "/portfolio-modern/static/media/sassLogo.df35cb2e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6fd819a.js",
+    "static/js/runtime-main.90c4c373.js",
     "static/js/2.b3f14833.chunk.js",
-    "static/css/main.f850bd77.chunk.css",
+    "static/css/main.ddd3800d.chunk.css",
     "static/js/main.48e9b360.chunk.js"
   ]
 }
