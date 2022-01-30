@@ -1,44 +1,48 @@
 .single-project {
-	padding: 1rem;
-	display: flex;
-	flex-flow: column nowrap;
-	&__image {
-		flex: 1 1 100%;
-		& img {
-			width: 100%;
-			border-radius: 7px 7px 0 0;
-		}
-	}
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  &__image {
+    flex: 1;
+    & img {
+      width: 100%;
+      border-radius: 7px 7px 0 0;
+    }
+  }
 
-	&__title {
-		font-weight: bolder;
-	}
+  &__title {
+    font-weight: bolder;
+  }
 
-	&__description {
-		line-height: 1.7;
-		margin: 0;
-		padding: 0;
-		font-weight: 300;
-	}
-	&__buttons {
-		height: 100%;
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: flex-start;
-		align-items: center;
-	}
-}
+  &__description {
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+  }
+  &__buttons {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-.tags {
-	display: flex;
-	&__tag {
-		border-radius: 5px;
-		background: rgba($color: $secondary-color, $alpha: 1);
-		display: block;
-		color: $dark-font-color;
-		padding: 0.25rem 1rem;
-		margin-right: 0.5rem;
-		height: fit-content;
-		text-transform: capitalize;
-	}
+  &__tags {
+    display: flex;
+    & span {
+      border-radius: 5px;
+      background: rgba($color: $secondary-color, $alpha: 1);
+      display: block;
+      color: $dark-font-color;
+      padding: 0.25rem 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      height: fit-content;
+      text-transform: capitalize;
+    }
+  }
 }

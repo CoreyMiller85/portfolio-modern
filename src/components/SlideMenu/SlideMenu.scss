@@ -1,51 +1,52 @@
 .slide-menu {
-	visibility: hidden;
-	opacity: 0;
-	height: 100vh;
-	z-index: 10;
-	width: 100vw;
-	background: rgba(0, 0, 0, 0.9);
-	position: fixed;
-	top: 0;
-	left: 0;
-	transition: all 0.5s ease-in-out;
-	transform: translateX(-1000px);
-	&.active {
-		opacity: 100%;
-		visibility: visible;
-		transform: translateX(0px);
-	}
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+  height: 100vh;
+  z-index: 10;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(0px);
+  &.active {
+    opacity: 100%;
+    visibility: visible;
+    display: block;
+    transform: translateX(0px);
+  }
 
-	&__list {
-		height: 90%;
-		width: 90%;
-		margin-top: 4rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-flow: column nowrap;
-		list-style-type: none;
-		text-align: center;
-	}
-	&__li {
-		font-size: 4rem;
-		margin-bottom: 5rem;
-		text-transform: uppercase;
-	}
+  &__list {
+    height: 90%;
+    width: 90%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    list-style-type: none;
+    text-align: center;
+  }
+  &__li {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+  }
 
-	&__li a:active,
-	&__li a:visited {
-		color: white;
-		text-decoration: none;
-	}
+  &__li a {
+    color: white;
+    text-decoration: none;
+  }
 
-	.close {
-		position: absolute;
-		right: 0;
-		top: 0;
-		font-size: 5rem;
-		color: white;
-		margin: 1rem 2rem;
-		cursor: pointer;
-	}
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 5rem;
+    color: white;
+    margin: 1rem 2rem;
+    cursor: pointer;
+  }
 }
