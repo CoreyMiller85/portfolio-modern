@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-modern/static/css/main.3cdffcbe.chunk.css",
-    "main.js": "/portfolio-modern/static/js/main.d1fea2d2.chunk.js",
-    "main.js.map": "/portfolio-modern/static/js/main.d1fea2d2.chunk.js.map",
+    "main.css": "/portfolio-modern/static/css/main.f9287275.chunk.css",
+    "main.js": "/portfolio-modern/static/js/main.88d47fb5.chunk.js",
+    "main.js.map": "/portfolio-modern/static/js/main.88d47fb5.chunk.js.map",
     "runtime-main.js": "/portfolio-modern/static/js/runtime-main.90c4c373.js",
     "runtime-main.js.map": "/portfolio-modern/static/js/runtime-main.90c4c373.js.map",
     "static/js/2.b3f14833.chunk.js": "/portfolio-modern/static/js/2.b3f14833.chunk.js",
     "static/js/2.b3f14833.chunk.js.map": "/portfolio-modern/static/js/2.b3f14833.chunk.js.map",
     "index.html": "/portfolio-modern/index.html",
-    "static/css/main.3cdffcbe.chunk.css.map": "/portfolio-modern/static/css/main.3cdffcbe.chunk.css.map",
+    "static/css/main.f9287275.chunk.css.map": "/portfolio-modern/static/css/main.f9287275.chunk.css.map",
     "static/js/2.b3f14833.chunk.js.LICENSE.txt": "/portfolio-modern/static/js/2.b3f14833.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio-modern/static/media/Picadilly.0a3230d6.ttf",
     "static/media/castr-screen.22fffbfb.png": "/portfolio-modern/static/media/castr-screen.22fffbfb.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.90c4c373.js",
     "static/js/2.b3f14833.chunk.js",
-    "static/css/main.3cdffcbe.chunk.css",
-    "static/js/main.d1fea2d2.chunk.js"
+    "static/css/main.f9287275.chunk.css",
+    "static/js/main.88d47fb5.chunk.js"
   ]
 }
