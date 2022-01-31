@@ -1,5 +1,4 @@
 import React from 'react';
-import './SlideMenu.scss';
 
 const SlideMenu = ({ isMenuOpen, active, setIsMenuOpen }) => {
   return (
@@ -8,16 +7,16 @@ const SlideMenu = ({ isMenuOpen, active, setIsMenuOpen }) => {
         X
       </span>
       <ul className='slide-menu__list'>
-        <li className='slide-menu__li'>
+        <li className='slide-menu__li neon-font'>
           <a href='#about'>About</a>
         </li>
-        <li className='slide-menu__li'>
+        <li className='slide-menu__li neon-font'>
           <a href='#projects'>Projects</a>
         </li>
-        <li className='slide-menu__li'>
+        <li className='slide-menu__li neon-font'>
           <a href='#skills'>Skills</a>
         </li>
-        <li className='slide-menu__li'>
+        <li className='slide-menu__li neon-font'>
           <a href='#contact'>Contact</a>
         </li>
       </ul>

@@ -26,14 +26,16 @@ const Contact = () => {
     <div className='contact' id='contact'>
       <div className='title pink-neon'>
         <div className='separator pink-neon'></div>
-        <div className='tilt-left' style={{ display: 'flex' }}>
-          <span className='title__letter'>C</span>
-          <span className='title__letter flicker-fast'>O</span>
-          <span className='title__letter'>N</span>
-          <span className='title__letter falling-left'>T</span>
-          <span className='title__letter flicker-slow'>A</span>
-          <span className='title__letter'>C</span>
-          <span className='title__letter'>T</span>
+        <div className='neon-sign__container'>
+          <div className='tilt-left' style={{ display: 'flex' }}>
+            <span className='title__letter'>C</span>
+            <span className='title__letter flicker-fast'>O</span>
+            <span className='title__letter'>N</span>
+            <span className='title__letter falling-left'>T</span>
+            <span className='title__letter flicker-slow'>A</span>
+            <span className='title__letter'>C</span>
+            <span className='title__letter'>T</span>
+          </div>
         </div>
         <div className='separator pink-neon'></div>
       </div>

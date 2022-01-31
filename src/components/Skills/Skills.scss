@@ -1,17 +1,30 @@
-$cols: 5;
 .Skills {
-	&__logos {
-		margin: 10rem 0;
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		&__logos .wrapper {
-			width: calc(100% / #{$cols});
-		}
-		& .logo {
-			width: auto;
-			height: 100px;
-			margin: 1rem;
-		}
-	}
+  &__logos {
+    margin: 10rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    & .wrapper {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+
+      & p {
+        display: block;
+        margin: 0;
+        border: 1px solid $secondary-color;
+        color: $secondary-color;
+        border-radius: 15px;
+        padding: 0.75rem 1.5rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+    & .logo {
+      width: 150px;
+      margin: 1rem;
+    }
+  }
 }

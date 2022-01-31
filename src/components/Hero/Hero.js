@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='hero__container'>
-        <video autoPlay='autoPlay' playsInline loop='loop' id='hero-video'>
+        <video autoPlay playsInline loop muted id='hero-video'>
           <source src={typing} type='video/mp4' />
         </video>
       </div>
