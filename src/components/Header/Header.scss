@@ -1,64 +1,69 @@
 .header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 70px;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-bottom: 1px solid rgba(223, 223, 223, 0.3);
-	color: #fff;
-	overflow: hidden;
-	position: absolute;
-	z-index: 1;
-	&__logo {
-		font-size: 3rem;
-		margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(223, 223, 223, 0.3);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 
-		& span.first {
-			font-weight: 200;
-		}
-		& span.last {
-			color: $secondary-color;
-		}
-	}
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+  &__logo {
+    font-size: 3rem;
+    margin-left: 1rem;
 
-	&__hamburger {
-		flex: 0 0 70px;
-		height: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border-left: 1px solid rgba(223, 223, 223, 0.3);
-	}
+    & span.first {
+      font-weight: 200;
+    }
+    & span.last {
+      color: $secondary-color;
+    }
+  }
 
-	&__list {
-		display: none;
-		visibility: hidden;
-	}
+  &__hamburger {
+    flex: 0 0 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(223, 223, 223, 0.3);
+  }
+
+  &__list {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media (min-width: $breakpoint-tablet) {
-	.header {
-		&__list {
-			display: flex;
-			visibility: visible;
-			list-style-type: none;
-			& a,
-			a:active,
-			a:visited {
-				text-decoration: none;
-				color: $font-color;
-			}
+  .header {
+    &__list {
+      display: flex;
+      visibility: visible;
+      list-style-type: none;
+      & a,
+      a:active,
+      a:visited {
+        text-decoration: none;
+        color: $font-color;
+      }
 
-			& li {
-				display: block;
-				margin-right: 5rem;
-				background: $highlight-color;
-			}
-		}
-		&__hamburger {
-			display: none;
-			visibility: hidden;
-		}
-	}
+      & li {
+        display: block;
+        margin-right: 5rem;
+        background: $highlight-color;
+      }
+    }
+    &__hamburger {
+      display: none;
+      visibility: hidden;
+    }
+  }
 } ;

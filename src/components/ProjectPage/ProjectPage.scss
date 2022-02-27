@@ -1,0 +1,38 @@
+.project-page {
+  padding: 2rem;
+  background-image: radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0.85),
+      rgb(0, 0, 0)
+    ),
+    url('../../img/background-bricks.png');
+  background-size: cover;
+  height: 100vh;
+  &__main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+  }
+  &__title {
+    grid-column: 1/2;
+  }
+  &__tech {
+    display: block;
+    grid-column: 2/3;
+    font-size: 2rem;
+    & ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &__description {
+    grid-column: 1 / -1;
+    font-size: 2rem;
+  }
+
+  &__subtitle {
+    color: #7ce0ff;
+  }
+}
