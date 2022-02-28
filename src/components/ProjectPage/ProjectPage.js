@@ -1,5 +1,19 @@
 import React from 'react';
 import Header from '../Header/Header';
+import styled from 'styled-components';
+
+const StyledImageContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+
+  & img {
+    width: 45%;
+    margin: 1rem auto;
+  }
+`;
 const ProjectPage = (props) => {
   return (
     <div class='project-page'>
@@ -10,8 +24,8 @@ const ProjectPage = (props) => {
         <div class='project-page__tech'>
           <h3 className='project-page__subtitle'>Technologies Used</h3>
           <ul>
-            {props.tech &&
-              props.tech.map((item, i) => {
+            {props.tags &&
+              props.tags.map((item, i) => {
                 return <li key={i}>{item}</li>;
               })}
           </ul>
@@ -24,7 +38,13 @@ const ProjectPage = (props) => {
           <p>{props.purpose}</p>
         </div>
       </div>
-      <div></div>
+      <StyledImageContainer>
+        {props.images
+          ? props.images.map((image) => {
+              return <img src={image} alt='image' />;
+            })
+          : null}
+      </StyledImageContainer>
     </div>
   );
 };

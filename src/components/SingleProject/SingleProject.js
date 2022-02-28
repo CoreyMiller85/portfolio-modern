@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import castrImg from '../../img/castr-screen.png';
-
 const SingleProject = ({
   title,
   tags,
@@ -9,6 +7,7 @@ const SingleProject = ({
   gitLink,
   liveLink,
   img_src,
+  mainImg,
   link,
 }) => {
   const insertTags = (tags) => {
@@ -25,7 +24,7 @@ const SingleProject = ({
     <div className='single-project'>
       <div className='single-project__image'>
         <Link to={`/${link}`}>
-          <img src={castrImg} alt='' />
+          <img src={mainImg} alt='' />
         </Link>
       </div>
       <Link to={`/${link}`}>

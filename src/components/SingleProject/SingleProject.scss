@@ -39,6 +39,7 @@
 
   &__tags {
     display: flex;
+    flex-flow: row wrap;
     & span {
       border-radius: 5px;
       background: rgba($color: $secondary-color, $alpha: 1);

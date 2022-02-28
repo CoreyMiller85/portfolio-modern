@@ -4,7 +4,7 @@ import Home from './Containers/Home';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import ProjectPage from './components/ProjectPage/ProjectPage';
-import { castr, brain } from './projects';
+import { castr, brain, clothes } from './projects';
 import SlideMenu from './components/SlideMenu/SlideMenu';
 
 const App = () => {
@@ -43,6 +43,18 @@ const App = () => {
               tech={brain.tech}
               purpose={brain.purpose}
               description={brain.description}
+            />
+          }
+        />
+        <Route
+          path='clothes'
+          element={
+            <ProjectPage
+              title={clothes.title}
+              tech={clothes.tech}
+              images={clothes.images}
+              purpose={clothes.purpose}
+              description={clothes.description}
             />
           }
         />
