@@ -29,9 +29,10 @@ const App = () => {
           element={
             <ProjectPage
               title={castr.title}
-              tech={castr.tech}
+              tags={castr.tags}
               purpose={castr.purpose}
               description={castr.description}
+              images={castr.images}
             />
           }
         />
@@ -40,9 +41,10 @@ const App = () => {
           element={
             <ProjectPage
               title={brain.title}
-              tech={brain.tech}
+              tags={brain.tags}
               purpose={brain.purpose}
               description={brain.description}
+              images={brain.images}
             />
           }
         />
@@ -51,7 +53,7 @@ const App = () => {
           element={
             <ProjectPage
               title={clothes.title}
-              tech={clothes.tech}
+              tags={clothes.tags}
               images={clothes.images}
               purpose={clothes.purpose}
               description={clothes.description}

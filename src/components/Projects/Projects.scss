@@ -10,7 +10,9 @@
     &__container {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(40vw, 4fr));
-      justify-items: stretch;
+      gap: 2rem;
+      align-items: stretch;
+      justify-items: center;
     }
   }
 }

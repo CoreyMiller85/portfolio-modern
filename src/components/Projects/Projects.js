@@ -3,6 +3,7 @@ import { projectsList } from '../../projects.js';
 import SingleProject from '../SingleProject/SingleProject';
 
 const Projects = () => {
+  console.log(projectsList[0].images);
   return (
     <div className='projects' id='projects'>
       <div className='title pink-neon '>
@@ -25,11 +26,12 @@ const Projects = () => {
             <SingleProject
               title={project.title}
               tags={project.tags}
-              description={project.desciption}
+              description={project.description}
               gitLink={project.gitLink}
               liveLink={project.liveLink}
               link={project.link}
               mainImg={project.mainImage}
+              images={project.images}
             />
           );
         })}

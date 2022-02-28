@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const SingleProject = ({
   title,
   tags,
-  desciption,
+  description,
   gitLink,
   liveLink,
   img_src,
@@ -31,7 +31,7 @@ const SingleProject = ({
         <h3 className='single-project__title'>{title}</h3>
       </Link>
       <div className='single-project__tags'>{tagList}</div>
-      <p className='single-project__description'>{desciption}</p>
+      <p className='single-project__description'>{description}</p>
       <div className='single-project__buttons'>
         <a href={gitLink} target='_blank' rel='noreferrer'>
           <button className='btn white sm'>Github</button>
@@ -40,11 +40,7 @@ const SingleProject = ({
           <a href={liveLink} target='_blank' rel='noreferrer'>
             <button className='btn green sm'>Live Demo</button>
           </a>
-        ) : (
-          <button className='btn green sm' disabled>
-            Live Demo
-          </button>
-        )}
+        ) : null}
       </div>
     </div>
   );

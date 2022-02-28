@@ -1,13 +1,10 @@
 .project-page {
   padding: 2rem;
   background-image: radial-gradient(
-      circle at center,
-      rgba(0, 0, 0, 0.85),
-      rgb(0, 0, 0)
-    ),
-    url('../../img/background-bricks.png');
-  background-size: cover;
-  height: 100vh;
+    circle at center,
+    rgba(0, 0, 0, 0.85),
+    rgb(0, 0, 0)
+  );
   &__main-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -21,9 +18,9 @@
     grid-column: 2/3;
     font-size: 2rem;
     & ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+      & li {
+        margin-bottom: 0.5rem;
+      }
     }
   }
 
