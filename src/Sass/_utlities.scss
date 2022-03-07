@@ -138,3 +138,10 @@ $color-primary: #51ff00;
     }
   }
 }
+
+.flex-left {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}

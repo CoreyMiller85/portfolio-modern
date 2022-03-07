@@ -1,6 +1,9 @@
 .Skills {
+  padding: 0 5rem;
+  margin-bottom: 5rem;
+
   &__logos {
-    margin: 10rem 0;
+    margin: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

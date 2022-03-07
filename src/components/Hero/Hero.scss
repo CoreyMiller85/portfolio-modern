@@ -30,9 +30,17 @@
     align-items: center;
 
     &__headline {
-      margin: 2rem 2rem;
+      padding: 2rem 5rem;
       font-size: 4rem;
       font-weight: 900;
+      text-align: center;
+    }
+
+    &__subtitle {
+      padding: 0 5rem 4rem 5rem;
+      font-size: 3rem;
+      text-align: center;
+      font-weight: 300;
     }
 
     &__copy {

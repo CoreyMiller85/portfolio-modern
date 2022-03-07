@@ -6,19 +6,8 @@ const Projects = () => {
   console.log(projectsList[0].images);
   return (
     <div className='projects' id='projects'>
-      <div className='title pink-neon '>
-        <div className='separator pink-neon '></div>
-        <div className='tilt-right'>
-          <span className='title__letter'>P</span>
-          <span className='title__letter flicker-slow'>R</span>
-          <span className='title__letter'>O</span>
-          <span className='title__letter flicker-fast falling-left'>J</span>
-          <span className='title__letter'>E</span>
-          <span className='title__letter'>C</span>
-          <span className='title__letter'>T</span>
-          <span className='title__letter'>S</span>
-        </div>
-        <div className='separator pink-neon '></div>
+      <div className='projects__title flex-left'>
+        <h2>PROJECTS</h2>
       </div>
       <div className='projects__container'>
         {projectsList.map((project) => {

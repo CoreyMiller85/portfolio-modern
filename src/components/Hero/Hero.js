@@ -10,16 +10,12 @@ const Hero = () => {
         </video>
       </div>
       <div className='hero__content'>
-        <div className='hero__name-span-container'>
-          <span className='hero__content__name-span'>
-            Corey Miller <br /> is a ...
-          </span>
-          <span className='hero__content__name-span'></span>
-        </div>
         <h1 className='hero__content__headline'>
           Creator of powerful & well engineered user focused web applications
         </h1>
-
+        <span className='hero__content__subtitle'>
+          Let's work together to make something awesome!
+        </span>
         <a href='#projects'>
           <button className='btn clear'>Projects</button>
         </a>

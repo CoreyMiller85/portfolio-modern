@@ -17,7 +17,7 @@
   }
   &__logo {
     font-size: 3rem;
-    margin-left: 1rem;
+    margin-left: 5rem;
 
     & span.first {
       font-weight: 200;
@@ -38,6 +38,7 @@
 
   &__list {
     display: none;
+    margin-right: 5rem;
     visibility: hidden;
   }
 }
@@ -52,13 +53,13 @@
       a:active,
       a:visited {
         text-decoration: none;
-        color: $font-color;
+        color: $dark-font-color;
       }
 
       & li {
         display: block;
         margin-right: 5rem;
-        background: $highlight-color;
+        background: $secondary-color;
       }
     }
     &__hamburger {
